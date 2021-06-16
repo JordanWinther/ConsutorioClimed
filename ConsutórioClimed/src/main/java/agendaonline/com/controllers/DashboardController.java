@@ -8,7 +8,7 @@ public class DashboardController {
 	
 	@RequestMapping("/")
 	public String index(){
-		return "LayoutPadrao";
+		return "https://appagendaonline.herokuapp.com/agenda";
 	}
 
 }
